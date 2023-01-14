@@ -1,0 +1,10 @@
+{
+  "name": "footballkik",
+  "version": "1.0.0",
+  "description": "A chat application built with NodeJS, MongoDB, Express and Socket.io",
+  "main": "index.js",
+  "repository": "https://github.com/jgsn13/footballkik",
+  "author": "Joaquim Gregório da Silva Neto <joaquim.ibi@gmail.com>",
+  "license": "GPL-2.0",
+  "private": false
+}
