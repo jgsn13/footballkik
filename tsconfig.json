@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "src/*": ["src/*"],
+      "main/*": ["src/main/*"],
+      "config/*": ["src/_config/*"],
+      "env/*": ["src/_config/env/*"],
+      "shared/*": ["src/_shared/*"],
+      "helpers/*": ["src/_shared/helpers/*"],
+      "utils/*": ["src/_shared/utils/*"]
+    },
+    "sourceMap": true,
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
